@@ -147,6 +147,17 @@ body{
   width: 100%;
   margin-top: -68px;
 }
+.typed-cursor{
+  opacity: 1;
+  animation: blink 0.7s infinite;
+
+}
+
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
 
 .main .banner-principal{
   width: 100%;

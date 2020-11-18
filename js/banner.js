@@ -1,11 +1,11 @@
 $(document).ready(function () {
 
-  var banner = $('#banner');
+  var Banner = $('#banner');
 
   function alturaBanner(){
 
-    var vpaltura = $(window).height();
-    banner.css('height', vpaltura);
+    var altura = $(window).height();
+    Banner.css('height', altura);
 
   }
   alturaBanner();

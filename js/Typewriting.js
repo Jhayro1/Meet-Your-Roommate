@@ -34,15 +34,15 @@ $(function() {
 	  setTimeout( function(){
 		  if($("#site-type").length) {
           $(".typewrite span").typed({
-            strings: ["Familia", "Seguridad","Meet Your Roommate"],
-            typeSpeed: 97,
-            backDelay: 500,
+            strings: ["Hogar", "Seguridad","Meet Your Roommate"],
+            typeSpeed: 120,
+            backDelay: 800,
             loop: false,
             contentType: 'html', 
             loopCount: false,
           });
       }
-	  }, 3000);
+	  }, 4000);
   });
   }
 })

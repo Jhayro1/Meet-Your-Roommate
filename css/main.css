@@ -185,10 +185,11 @@ body{
 }
 
 .main .banner-principal .texto-banner h2{
-  font-weight: 300;
+  font-weight: 650;
+  font-size: 25px;
   color:#B3061A;
   margin-bottom: 20px;
-  text-shadow: 0 0 6px black;
+  text-shadow: 0 0 3px rgb(255, 255, 255);
 
 }
 
@@ -231,15 +232,22 @@ body{
 }
 
 .main .proyectos .galeria-proyectos .proyecto{
-  width: 346px;
+  width: 310px;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 2%;
   cursor: pointer;
+
+  transition: all ease-in-out 0.3s;
+}
+.main .proyectos .galeria-proyectos .proyecto:hover{
+  transform: scale(1.1);
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .main .proyectos .galeria-proyectos .proyecto img{
-  width: 100%;
+  width: 310px;
   min-width: 260px;
   height: 220px;
   vertical-align: top;
@@ -453,6 +461,11 @@ body{
   color: white;
   font-weight: 600;
   background-color: #B3061A;
+  transition: all ease-in-out 0.3s;
+}
+.main .nuestro-equipo .equipo .plan .m-5 a:hover{
+  background-color: #b83342;
+  
 }
 
 
@@ -481,7 +494,7 @@ body{
 }
 
 .main .info-extra .contenedor .info .contenido-info:first-child{
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .main .info-extra .contenedor .info .contenido-info .icono-info{
@@ -489,7 +502,7 @@ body{
 }
 
 .main .info-extra .contenedor .info .contenido-info .icono-info i{
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   color: #fff;
 }
 
@@ -509,6 +522,23 @@ body{
   color: #979797;
   font-size: 1rem;
   font-weight: 400;
+  padding-bottom: 30px;
+  padding-right: 25px;
+}
+
+.main .info-extra .contenedor .info .contenido-info .texto-info a{
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  border-color:#ffffff ;
+  padding: 15px 20px;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  
+}
+.main .info-extra .contenedor .info .contenido-info .texto-info a:hover{
+  background-color: #B3061A;
+  
 }
 
 .main .info-extra .contenedor .foto{
@@ -659,7 +689,7 @@ footer .footer-redes a:hover{
     max-width: 100%;
     display: block;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     margin: 15px;
   }
   .main .nuestro-equipo .equipo .plan:first-child{

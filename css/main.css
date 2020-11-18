@@ -350,6 +350,8 @@ body{
 }
 
 .main .acerca-de .contenedor .titulo-seccion h2{
+  line-height: 50px;
+  padding-bottom: 20px;
   margin-bottom: 0;
 }
 
@@ -794,6 +796,9 @@ footer .footer-redes a:hover{
   .main .banner-principal .texto-banner h1{
     font-size: 3rem;
   }
+  .main .banner-principal .texto-banner h2{
+    font-size: 16px;
+  }
   .titulo-seccion h2{
     font-size: 2.125rem;
   }
@@ -801,11 +806,7 @@ footer .footer-redes a:hover{
     
     align-items: center;
   }
-  .main .proyectos .galeria-proyectos .proyecto{
-    width: 260px;
-    margin-left: 20px;
   
-  }
   .modal .textos-modal h2{
     font-size: 30px;
   }
@@ -853,4 +854,5 @@ footer .footer-redes a:hover{
   .main .banner-principal .texto-banner h1{
     font-size: 2rem;
   }
+  
 }

@@ -1,35 +1,15 @@
 $(function() {
-
-  
-  
-    Website();
-    
-    
-  
-
-		
-
-		
-
-
+ Website();
   function Website() {
 	  CheckScripts();		
-	
   }
-
   function CheckScripts() {
 
     $(document).ready(function(){
       Typewriting();
     });
-
  }
-
-
-
   function Typewriting() {
-
-
   $(document).ready(function(){
 	  setTimeout( function(){
 		  if($("#site-type").length) {
